@@ -6,10 +6,11 @@ class Navbar extends React.Component{
         return (
             <div className = "nav">
               <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>FAQ</li>
+                <img src= "logo.png" style={{width:130, marginTop: 0}} alt="logo"/>
                 <li>Contact</li>
+                <li>Workouts</li>
+                <li>About</li>
+                <li>Home</li>
               </ul>
             </div>
         );
