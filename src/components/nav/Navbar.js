@@ -4,18 +4,18 @@ import './Navbar.css'
 class Navbar extends React.Component{
     render() {
         return (
-            <div className = "nav">
-              <ul>
-                <img src= "logo.png" style={{width:130, marginTop: 0}} alt="logo"/>
-                <li>Contact</li>
-                <li>Workouts</li>
-                <li>About</li>
-                <li>Home</li>
+            <nav className = "nav">
+              <ul className = "main-nav">
+                <img className = "logo" src= "logo.png" alt="logo"/>
+                <li><a href="">Home</a></li>
+                <li><a href="">Workouts</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
               </ul>
-            </div>
+            </nav>
         );
     }
 }
 
 
-export default Navbar;
+export default Navbar;  
