@@ -5,7 +5,7 @@ body {
 .main-nav{
         display: flex;
         list-style: none;
-        font-size: 1.25em;
+        font-size: 1em;
 }
 
 li {
@@ -22,6 +22,14 @@ a {
 .logo {
         margin-left: 2em;
         margin-top: 1em;
-        height: 125px;
+        height: 100px;
 
 }
+
+.nav li a:hover {
+        margin-left: 5px;
+        background-color: grey;
+        color: white; 
+        font-weight: bold;
+        width: 100%;
+      }
