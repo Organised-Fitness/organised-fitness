@@ -1,0 +1,45 @@
+body {
+        margin: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      .topnav {
+        display: inline;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        transition-timing-function: ease-in;
+        transition: all 0.5s;
+        z-index: 999;
+      }
+      
+      .topnav a {
+        color: black;
+        text-align: center;
+        float: right;
+        padding: 50px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: grey;
+        color: black;
+      }
+      
+      .logo {
+        position: fixed;
+        left: 0;
+        text-align: center;
+        height: 70px;
+        width: 20%;
+        line-height: 130px;
+        z-index: 1;
+        transition-timing-function: ease-in;
+        transition: all 0.5s;
+      }
+      
+      .nav__grey{
+      background-color: lightgrey; opacity: 0.8; filter: alpha(opacity=50);;
+      }
+      

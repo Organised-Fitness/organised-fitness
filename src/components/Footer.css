@@ -1,24 +1,23 @@
 .main-footer{
-    color: black;
-    background-color: lightgrey;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  color: black;
+  background-color: lightgrey;
+  position: relative;
+  padding: 2.5rem;
+  bottom: 0;
+  width: 100%;
 }
 
 .col {
-    float: left;
-  }
-  
-  .row {
-    display: flex;
-  }
-
-ul{
-    list-style-type: none;
+  float: left;
+  width: 33.33%;
 }
 
-li{
-    display: inline-block;
-    padding: 0.1px;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul{
+  list-style-type: none;
 }

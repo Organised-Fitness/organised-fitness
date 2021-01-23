@@ -8,14 +8,14 @@ const Footer = () => {
                 <div className="row">
                     <div className="col">
                         <ul className="list-unstyled">
-                            <p>Address:</p>
+                            <p>Address</p>
                             <li>Kaunas, Lithuania</li> 
-                            <li>K. Donelaičio g. 73, Kaunas 44249</li>  
+                            <li>K. DonelaiÄio g. 73, Kaunas 44249</li>  
                         </ul>
                     </div>    
                         <div className="col">
                             <ul className="list-unstyled">
-                                <p>Contact:</p>
+                                <p>Contact</p>
                                 <li>(675) 844-7400</li>
                                 <li>contact@fitnessorganised.com</li>  
                             </ul>
